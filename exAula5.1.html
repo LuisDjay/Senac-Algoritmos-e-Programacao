@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Escreva um programa para que sejam informados 10 numeors inteiros. O programa deve informar o menor e o maior valor informado.
+
+var maior
+var menor
+var numero = parseInt(prompt('Número: '))
+
+maior = numero
+menor = numero
+
+for(var i=0;i<9;i++){
+    var numero = parseInt(prompt('Número'))
+    if (numero > maior){
+        maior = numero
+    }
+else if(numero <menor){
+    menor = numero
+}
+}
+alert('Maior: ' + maior)
+alert('Menor: ' + menor)
+
+    </script>
+</body>
+</html>
