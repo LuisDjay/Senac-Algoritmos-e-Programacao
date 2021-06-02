@@ -8,27 +8,37 @@
 </head>
 <body>
     <script>
-        /* Transformando Pseudocódigo em linguagem de programação */
-        /* var 
-            idade: inteiro
-           Inicio
-            Escreva: 'Informe sua idade'  
-           Leia: Idade
-           Se a idade for maior ou igual a 16 entao:  
-            Escreva: 'Essa pessoa pode votar'
-           Senão
-            Escreva: 'Essa pessoa nao pode votar' 
-           Fim
-         */  
-           
-    var idade = parseInt(prompt('Informe a sua idade: '))
-    if (idade >= 16){
-            alert('Você pode votar ')
+        /* Faça um programa para que o aluno consiga saber se o mesmo está aprovado em uma disciplina. A nota minima é 6.0. Valores negativos devem ser considerados inválidos. */
+        
+    var materia = prompt('Digite a disciplina: ')
+    var nota = parseFloat(prompt('Digite a sua nota:  '))
+    
+    
+    if (nota < 0){
+            alert('Dados inválidos ')
     }
-    else{
-        alert('Essa pessoa não pode votar')
+    else if (nota >= 6){
+        alert('Você foi aprovado em ' + materia)
         }
+    else{
+        alert('Você foi reprovado em ' + materia)
+    }
     alert ('Fim')
+
+/* Resolução do professor 
+var nota = parseFloat(prompt('Digite a sua nota:  '))
+if (nota > 0.0){
+    if (nota >= 6.0){
+        alert('Você foi aprovado')
+        }
+    else{
+        alert('Você foi reprovado')
+    }
+}
+else{
+    alert ('Nota Inválida')
+}
+    alert ('Fim') */
     </script>
 </body>
 </html>
