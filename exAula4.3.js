@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script>
 /* Escreva um Algoritmo para ler uma temperatura em graus Fahrenheit, calcular e escrever o valor correspondente
 em graus Celsius.*/
 
@@ -17,10 +7,3 @@ var f = temp * 1.8 + 32
 var k = temp * 273.15 + temp
 
 alert ( ' A temperatura de' + temp+'°C corresponde a ' + f+ '°F e '+ k +'°K.')
-
-
-
-
-    </script>
-</body>
-</html>

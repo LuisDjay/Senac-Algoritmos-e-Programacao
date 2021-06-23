@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script>
+
         /* Crie uma matriz 3x3, preencha com números inteiros e mostre o resultado e também a transposta desta matriz(trocando linha por coluna) */
         var matrizA = [[],[],[]]
 var matrizB = [[],[],[]]
@@ -51,7 +42,3 @@ alert('A transposta');
 for(var linha=0;linha<3;linha++){
     alert(transposta[linha])
 }
-
-    </script>
-</body>
-</html>

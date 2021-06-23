@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script>
+
         /* Elabore um programa que baseados em respostas de sim ou não avalia se as caracteristicas fornecidas é de um réptil */
   
     var q1 = prompt('Bota ovos? ')   
@@ -43,6 +34,3 @@
         
 
     alert ('Fim')
-    </script>
-</body>
-</html>

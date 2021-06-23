@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script>
 /* Monte um programa que calcule o IMC de uma pessoa. Deve ser fornecido como entrada o peso em kg, e a altura em metros. Como saida, deve ser exibido o IMC e mostrar em qual faixa de risco a pessoa se encontra */
         var peso = parseFloat(prompt('Peso: '))
         var altura = parseFloat(prompt('Altura: '))
@@ -34,7 +24,3 @@ else if(imc <=39.9){
 else{
     alert('Obesidade Grau III')
 }
-    </script>
-
-</body>
-</html>

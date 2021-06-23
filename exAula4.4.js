@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script>
+
 /* Ler o ano atual e o ano de nascimento de uma pessoa. Escrever uma mensagem que diga se ela poderá ou nao votar esse ano (não é necessário considerar o mês em que a pessoa nasceu).*/
 
 var atual = parseInt(prompt('Digite o ano atual: '))
@@ -23,6 +14,3 @@ else if (idade >= 16) {
 if (idade >= 18){
     alert("Você deve votar ")
 }
-    </script>
-</body>
-</html>
